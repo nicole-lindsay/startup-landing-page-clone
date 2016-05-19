@@ -15,7 +15,6 @@ html {
 }
 .top-navigation > .content {
 	width: 770px;
-    height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
 }
@@ -34,4 +33,7 @@ html {
 .top-navigation .links li:hover {
 	cursor: pointer;
 	color: #333;
+}
+.top-navigation .logo {
+	height: 70px;
 }
