@@ -2,8 +2,11 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	background-color: #fff;
+	text-align: center;
 }
 
 li {
 	display: inline;
+	margin: 1.5em;
 }
