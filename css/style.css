@@ -4,12 +4,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+body {
+	font-family: 'Roboto', sans-serif;
+}
 /* Navigation section*/
 .top-navigation {
 	background-color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	color: #838994;
 	letter-spacing: 0.03em;
 	width: 100%;
@@ -23,11 +24,11 @@ html {
 }
 .links {
 	float: right;
-	margin-top: 1.75em;
+	margin-top: 1.75rem;
 }
 .links > li {
 	display: inline;
-	margin-left: 1.5em;
+	margin-left: 1.5rem;
 }
 .top-navigation .links .active {
     color: #4c5058;
@@ -38,7 +39,7 @@ html {
 	color: #333;
 }
 .top-navigation .logo {
-	height: 70px;
+	height: 4.375rem;
 }
 
 /*introduction section*/
@@ -56,7 +57,6 @@ html {
 }
 .introduction h1,
 .introduction h3 {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
 .introduction h1 {
@@ -84,17 +84,19 @@ button:hover {
 
 /*three-icons-section*/
 .cases .content {
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	text-align: center;
 	padding: none;
 	margin-top: 7.875rem;
 }
+.devices {
+	display: flex;
+	justify-content: space-around;
+}
 .cases .devices li {
-	display: inline-block;
 	box-sizing: border-box;
 	list-style-type: none;
-	align-items: center;
+	margin-right: 1.875rem;
 }
 .cases h2 {
 	font-weight: 300;
@@ -107,9 +109,19 @@ button:hover {
 }
 
 /*footer section*/
+hr {
+	color:#838994;
+}
+.social h5 {
+	font-weight: 300;
+}
 .social {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
 	font-size: 1.25rem;
-	font-weight: 400;
+}
+.icons {
+	list-style-type: none;
+}
+.icons li {
+	display: inline;
 }
