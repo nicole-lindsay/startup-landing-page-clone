@@ -105,3 +105,11 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
+
+/*footer section*/
+.social {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
