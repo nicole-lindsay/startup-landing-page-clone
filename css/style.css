@@ -5,7 +5,9 @@ html {
   box-sizing: inherit;
 }
 
-/* Navigation section*/
+/* Navigation section--will need a fixed top nav bar
+position: fixed;*/
+
 .top-navigation {
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
@@ -13,10 +15,10 @@ html {
 	color: #838994;
 	letter-spacing: 0.03em;
 }
-.top-navigation > .content {
-	width: 770px;
-    margin: 0 auto;
-    padding: 0px 15px;
+.content {
+	padding: 0 17rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
 }
 .links {
 	float: right;
@@ -36,4 +38,45 @@ html {
 }
 .top-navigation .logo {
 	height: 70px;
+}
+
+/*introduction section*/
+.introduction {
+	background-image: url("file:///C:/Users/Nicole/Pictures/Saved%20Pictures/first-background%20copy.jpg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction .content {
+	color: #fff;
+	text-align: center;
+}
+.introduction h1,
+.introduction h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	margin-bottom: -1rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+.introduction button {
+	background-color: #f15a29;
+	color: #fff;
+	border-radius: .25rem;
+	cursor: pointer;
+	font-size: 1.25rem;
+	padding: 1rem 1.5rem;
+	border: none;
+}
+button:hover {
+	background-color: #d9400e;
+	border-color: #d9400e;
 }
