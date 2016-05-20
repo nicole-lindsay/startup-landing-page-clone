@@ -6,7 +6,6 @@ html {
 }
 
 /* Navigation section*/
-
 .top-navigation {
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
@@ -87,11 +86,15 @@ button:hover {
 .cases .content {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+	text-align: center;
+	padding: none;
+	margin-top: 7.875rem;
 }
-.cases .devices {
-	width: 33%;
+.cases .devices li {
 	display: inline-block;
 	box-sizing: border-box;
+	list-style-type: none;
+	align-items: center;
 }
 .cases h2 {
 	font-weight: 300;
