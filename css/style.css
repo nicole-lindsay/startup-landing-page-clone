@@ -96,6 +96,7 @@ button:hover {
 	box-sizing: border-box;
 	list-style-type: none;
 	margin-right: 1.875rem;
+	text-align: center;
 }
 .cases h2 {
 	font-weight: 300;
@@ -106,7 +107,6 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.563rem;
 }
-
 /*footer section*/
 hr {
 	color:#838994;
