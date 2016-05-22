@@ -111,15 +111,30 @@ button:hover {
 hr {
 	color:#838994;
 }
-.social h5 {
-	font-weight: 300;
+h5 {
+	font-weight: 400;
 }
 .social {
-	font-size: 1.25rem;
+	font-size: 1.5rem;
+	text-align: center;
 }
 .icons {
 	list-style-type: none;
+	padding-right: 2rem;
 }
 .icons li {
-	display: inline;
+	display: inline-flex;
+	justify-content: space-between;
+	margin-top: -0.5rem;
+}
+.circle-icon {
+	border:thin;
+	border-style: solid;
+	border-color: #eaebec;
+	border-radius: 100%;
+	padding:0.875rem;
+}
+h6 {
+	font-weight: 300;
+	color:#838994;
 }
