@@ -121,6 +121,7 @@ h5 {
 .icons {
 	list-style-type: none;
 	padding-right: 2rem;
+	cursor: pointer;
 }
 .icons li {
 	display: inline-flex;
